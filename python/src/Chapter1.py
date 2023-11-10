@@ -26,3 +26,8 @@ if __name__ == '__main__':
     # The answer should be 5
 
     # WRITE YOUR SOLUTION HERE
+    recipe: int = 7
+    eggs: int = 12
+    eggs_new = (eggs - recipe)
+    print(eggs_new)
+    # eggs = eggs - recipe

@@ -17,7 +17,7 @@ public class Chapter1 {
         number = 3;
 
         // This would not work, uncomment the line below and try to run the program
-        //number = true;
+        // number = true;
 
         // It is also possible to assign a value to a variable when you declare it
         boolean bool = true;
@@ -31,7 +31,9 @@ public class Chapter1 {
         // TIP: Java always returns a whole number if you divide two integers. Change one of the numbers to a float.
 
         // WRITE YOUR SOLUTION HERE
-
+        int nrOfQuestions = 60;
+        float nrOfCorrectAnswers = 20;
+        System.out.println(nrOfCorrectAnswers / nrOfQuestions * 100);
     }
 
 }

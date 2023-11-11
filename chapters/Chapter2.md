@@ -69,3 +69,8 @@ if coded incorrectly it is possible that the while loop will keep running foreve
 while condition
 ...Execute A
 ```
+
+## Exercise
+Do the exercises below
+* [Java exercise](../java/src/Chapter2.java)
+* [Python exercise](../python/src/Chapter2.py)

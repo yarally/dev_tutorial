@@ -35,6 +35,7 @@ public class Chapter2 {
         // 3: Some incrementation of i, in this example i++ which is equivalent to i = i + 1
         int iterations = 10;
         for (int i = 0; i < iterations; i++) {
+            //1:------ 2:------------- 3:--
             System.out.println("This is iteration: " + i);
         }
 
@@ -48,16 +49,16 @@ public class Chapter2 {
 
         // Now try the following 2 exercises:
         // 1: Create a variable called sum and initialize it to 0. Write a for-loop that runs from 0 to 100 (inclusive)
-        // and add these to your sum variable. Finally print the result (it should be 5050)
+        // and add the values of your iterator to the sum variable. Finally print the result (it should be 5050)
         // TIP: If your answer is 4950, think about what the final value of i is when your loop ends.
 
         //2: Create an integer variable (I will call it test) and set its value to 2.
-        // Make a while-loop with the condition a != 1296. Inside the while, create an if-statement
-        // multiply a by itself if it is currently less than 1000, otherwise subtract 65500 from test
+        // Make a while-loop with the condition test != 1296. Inside the while, create an if-statement
+        // multiply test by itself if it is currently less than 1000, otherwise subtract 65500 from test
         // If you did it correctly, you will not enter an infinite loop and your program should terminate :)
 
         // WRITE YOUR FIRST SOLUTION HERE
 
-        // WRITE YOUR SECONDN SOLUTION HERE
+        // WRITE YOUR SECOND SOLUTION HERE
     }
 }

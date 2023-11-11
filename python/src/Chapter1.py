@@ -1,6 +1,6 @@
 """
 This is the main function, a special function that is always started by the operating system when you run the program
-We will go over functions and methods in the next chapter
+We will go over functions and methods in Chapter 3
 """
 if __name__ == '__main__':
     # We can use print("Your text here") to print stuff to the console

@@ -25,16 +25,16 @@ if __name__ == '__main__':
     x: int = 100
     y: int = 50
     # The syntax for the while loop is very similar to the Java version.
-    while x < y:
+    while x > y:
         print('x is still larger than y')
         x = x - 5
 
     # Because we don't use curly braces in Python, it is extra important to mind the correct indentation.
-    # Look at this for loop a think about why it does not work as intended
+    # Look at this for-loop and think about why it does not work as intended
 
     for i in range(0, 10):
         print("This is iteration: ")
-    print(i)
+        print(i)
 
     # For your exercises, you will try to refactor two pieces of code
     # 1: Change the if statement below to a switch statement
@@ -51,8 +51,13 @@ if __name__ == '__main__':
         print('Invalid color')
 
     # WRITE YOUR FIRST SOLUTION HERE (reuse the color variable, so you can compare the results)
+    match color:
+        case 'GREEN': print("Drive")
+        case 'ORANGE': print("Drive faster")
+        case 'RED': print("Stop")
+        case _: print("Invalid color")
 
-    # 2: Change this while loop into a for loop instead
+    # 2: Change this while loop into a for-loop instead
 
     i: int = 0
     even_sum: int = 0
@@ -65,6 +70,16 @@ if __name__ == '__main__':
 
     # WRITE YOUR SECOND SOLUTION HERE
     even_sum: int = 0
+    for i in range(0, 49): #range(5) = [0, 1, 2, 3, 4]
+        if i % 2 == 0:
+            even_sum = even_sum + i
+    print(even_sum)
 
+    for i in range(0, 10):
+        print("This is iteration: ")
+        print(i)
+
+    for iets in ['A', 'b', 'x', 'YY']:
+        print(iets)
 
 

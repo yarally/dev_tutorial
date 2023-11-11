@@ -52,12 +52,48 @@ public class Chapter2 {
         // TIP: If your answer is 4950, think about what the final value of i is when your loop ends.
 
         //2: Create an integer variable (I will call it test) and set its value to 2.
-        // Make a while-loop with the condition a != 1296. Inside the while, create an if-statement
-        // multiply a by itself if it is currently less than 1000, otherwise subtract 65500 from test
+        // Make a while-loop with the condition test != 1296. Inside the while, create an if-statement
+        // multiply test by itself if it is currently less than 1000, otherwise subtract 65500 from test
         // If you did it correctly, you will not enter an infinite loop and your program should terminate :)
 
         // WRITE YOUR FIRST SOLUTION HERE
+        int sum = 0;
+        for (int i = 0; i <= 100; i++) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
 
-        // WRITE YOUR SECONDN SOLUTION HERE
+        // WRITE YOUR SECOND SOLUTION HERE
+        int test = 2;
+        while (test != 1296) {
+            if (test < 1000) {
+                test = test * test;
+            } else {
+                test = test - 65500;
+            }
+            System.out.println(test);
+        }
+
+
+        int evenSum = 0;
+        for (int i = 0; i <= 48; i++) {
+            if (i % 2 == 0) {
+                evenSum += i;
+            }
+        }
+
+        int i = 0;
+        while(i <= 48) {
+            if (i % 2 == 0) {
+                evenSum += i;
+            }
+            i++;
+        }
+
+        int[] lijst = {1, 3 ,7, -2, 8};
+        for (int l : lijst) {
+            System.out.println(l);
+        }
+
     }
 }

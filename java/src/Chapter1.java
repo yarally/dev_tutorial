@@ -3,7 +3,7 @@ public class Chapter1 {
 
     /**
      * This is the main method, a special method that is always started by the operating system when you run the program
-     * We will go over functions and methods in the next chapter
+     * We will go over functions and methods in the Chapter 3
      */
     public static void main(String[] args) {
         // We can use System.out.println("Your text here"); to print stuff to the console

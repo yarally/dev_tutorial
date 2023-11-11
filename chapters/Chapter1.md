@@ -19,5 +19,5 @@ There are many more, but this is enough to get a grip on what forms a variable c
 ## Exercise
 You will now play around with variables in two different languages: Python, a weakly typed language and Java, a
 strongly typed language. Open the correct chapters and work through the comments:
-* [Java exercise](../../java/src/Chapter1.java)
-* [Python exercise](../../python/src/Chapter1.py)
+* [Java exercise](../java/src/Chapter1.java)
+* [Python exercise](../python/src/Chapter1.py)

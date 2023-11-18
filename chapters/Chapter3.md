@@ -29,11 +29,11 @@ int main() {
 Notice that the python syntax for the main function is a tiny bit strange compared to the rest. It is pretty common to include an actual function here
 as well:
 ```python
-def main():
-    # Do stuff
-
 if __name__ == '__main__':
     main()
+
+def main():
+    # Do stuff
 ```
 
 So the main function is special because it always runs when you start your program, but other than that it is no different from other functions. We

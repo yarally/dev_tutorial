@@ -41,7 +41,7 @@ def sum_sequence_1(inp):
 # 3: The return type of the function comes after the input parameters, preceded by a ->.
 # 4: Python also uses the keyword "return" to return a value from a function.
 def sum_sequence_2(inp: int) -> int:
-# 0- -------1------ ----2---  ---3---
+#0- -------1------ ----2---  ---3---
     res: int = 0
     for i in range(inp):
         res = res + i

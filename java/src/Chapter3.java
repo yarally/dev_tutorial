@@ -75,6 +75,8 @@ public class Chapter3 {
     }
 
     // WRITE YOUR FIRST SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
+    // Remember to start your method with "public static"
 
     // WRITE YOUR SECOND SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
+    // Remember to start your method with "public static"
 }

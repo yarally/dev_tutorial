@@ -45,7 +45,7 @@ def sum_sequence_2(inp: int) -> int:
     res: int = 0
     for i in range(inp):
         res = res + i
-    return res
+    return res  # 4
 
 # WRITE YOUR SOLUTION HERE #############################################################################################
 

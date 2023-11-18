@@ -13,7 +13,7 @@ public class Chapter2 {
         }
 
         // Now we look at a switch statement. The value of the variable on line 17 can represent several types of fish
-        // Change the fishType value and examine the output of the switch-statmentn
+        // Change the fishType value and examine the output of the switch-statement
         int fishType = 0;
 
         switch (fishType) {                             // We evaluate the variable in the switch
@@ -32,12 +32,12 @@ public class Chapter2 {
 
         // Next up is the for-loop
         // For-loops in Java have 3 building blocks separated by a ";"
-        // 1: We initialize a variable (typically named i) that keeps track of the number of iterations
+        // 1: We initialize a counter variable (typically named i) that keeps track of the number of iterations
         // 2: The condition to keep looping, this is in terms of i
         // 3: Some incrementation of i, in this example i++ which is equivalent to i = i + 1, this happens at the end of a loop
         int iterations = 10;
         for (int i = 0; i < iterations; i++) {
-            //1:------ 2:------------- 3:--
+           //----1----- -------2:------ -3-
             System.out.println("This is iteration: " + i);
         }
 
@@ -53,7 +53,7 @@ public class Chapter2 {
         // Now try the following 2 exercises:
         // EXERCISE 1 //////////////////////////////////////////////////////////////////////////////////////////////////
         // Create a variable called sum and initialize it to 0. Write a for-loop that runs from 0 to 100 (inclusive)
-        // and add the values of your iterator to the sum variable. This means that the value of sum will look like
+        // and add the values of your counter to the sum variable. This means that the value of sum will look like
         // 0 + 1 + 2 + 3... Finally print the result (it should be 5050)
         // TIP: If your answer is 4950, think about what the final value of i is when your loop ends.
 

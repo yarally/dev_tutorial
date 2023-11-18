@@ -22,18 +22,19 @@ fn main() {
 ```java
 // c++
 int main() { 
-// Do stuff
+    // Do stuff
 }
 ```
 
 Notice that the python syntax for the main function is a tiny bit strange compared to the rest. It is pretty common to include an actual function here
 as well:
 ```python
+def main():
+    # Do stuff
+
 if __name__ == '__main__':
     main()
 
-def main():
-    # Do stuff
 ```
 
 So the main function is special because it always runs when you start your program, but other than that it is no different from other functions. We
@@ -43,9 +44,35 @@ parameters of the number type, and the output is also a number:
 ```
 f(x, y) = x + y
 ```
-Functions are powerful because they reduce code duplication and improve the readability. To fully appreciate this, you have to play around with them.
+
+## Scope
+Just like loops and branching statements, functions have their own contained scope. Variables declared inside a function
+can only be used inside that function unless you choose to return their value.
+
+```
+(pseudocode)
+main() {
+....variable a
+....for {
+........variable b
+........#1
+....}
+....myFunction()
+....#2
+}
+
+myFunction() {
+....variable c
+....#3
+}
+```
+Look at the pseudocode above. At the #1 marker, you would be able to use the values of both variables a and b, but not c.
+_b_ because we are in the scope of the for-loop, and _a_ because the for-loop is in the scope of the main function.
+From marker #2 we would only be able to access variable _a_. The function "myFunction" has its own scope, so from marker
+#3, we can only access variable c.
 
 ## Exercise
-Do the exercises below
+Functions are powerful because they reduce code duplication and improve the readability. To fully appreciate this, you have to play around with them.
+Do the exercises below.
 * [Java exercise](../java/src/Chapter3.java)
 * [Python exercise](../python/src/Chapter3.py)

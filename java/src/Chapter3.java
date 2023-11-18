@@ -40,7 +40,7 @@ public class Chapter3 {
         // Study the sumSequence method (lines 68-75) before you continue
         // EXERCISE 1 //////////////////////////////////////////////////////////////////////////////////////////////////
         // First uncomment the code on line 46
-        // Create a method called "doACountDown" that returns nothing and takes a single integer as input.
+        // Create a method called "doACountDown" that returns nothing (void) and takes a single integer as input.
         // The method should print all the numbers starting from the input until 0
         // E.g. for the input number 3, the method should print 3, 2 and 1 on separate lines.
         //doACountDown(10); // Uncomment this line
@@ -76,6 +76,7 @@ public class Chapter3 {
 
     // WRITE YOUR FIRST SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
     // Remember to start your method with "public static"
+    // TIP: Use i--; to decrement the value of your counter in a for-loop
 
     // WRITE YOUR SECOND SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
     // Remember to start your method with "public static"

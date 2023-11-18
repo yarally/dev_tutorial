@@ -55,7 +55,7 @@ The for-loop is used to repeat a block of code for a fixed number of times. We o
 is incremented after each iteration of the loop until we reach the desired value.
 
 ```
-(pseudo code)
+(pseudocode)
 for i in the range 0 to 10
 ...Execute A
 ```
@@ -65,7 +65,7 @@ The while loop takes a condition and will repeat its block of code as long as co
 if coded incorrectly it is possible that the while loop will keep running forever, causing your program to crash!
 
 ```
-(pseudo code)
+(pseudocode)
 while condition
 ...Execute A
 ```

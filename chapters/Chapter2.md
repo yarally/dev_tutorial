@@ -50,22 +50,22 @@ else if animal is FISH
 ```
 
 ## Loops
-### For-Loop
+### For-Loop (count-controlled loop)
 The for-loop is used to repeat a block of code for a fixed number of times. We often keep track of a variable that
 is incremented after each iteration of the loop until we reach the desired value.
 
 ```
-(pseudo code)
+(pseudocode)
 for i in the range 0 to 10
 ...Execute A
 ```
 
-### While-Loop
+### While-Loop (condition-controlled loop)
 The while loop takes a condition and will repeat its block of code as long as condition evaluates to true. Notice that
 if coded incorrectly it is possible that the while loop will keep running forever, causing your program to crash!
 
 ```
-(pseudo code)
+(pseudocode)
 while condition
 ...Execute A
 ```

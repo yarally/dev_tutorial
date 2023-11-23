@@ -43,7 +43,7 @@ public class Chapter3 {
         // Create a method called "doACountDown" that returns nothing (void) and takes a single integer as input.
         // The method should print all the numbers starting from the input until 0
         // E.g. for the input number 3, the method should print 3, 2 and 1 on separate lines.
-        //doACountDown(10); // Uncomment this line
+        doACountDown(10); // Uncomment this line
 
         // EXERCISE 2 //////////////////////////////////////////////////////////////////////////////////////////////////
         // First uncomment the code on lines 53 and 54
@@ -77,7 +77,14 @@ public class Chapter3 {
     // WRITE YOUR FIRST SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
     // Remember to start your method with "public static"
     // TIP: Use i--; to decrement the value of your counter in a for-loop
+    public static void doACountDown(int input) {
+        for (int i = input; i >= 0; i--) {
+            System.out.println(i);
+        }
+
+    }
 
     // WRITE YOUR SECOND SOLUTION HERE //////////////////////////////////////////////////////////////////////////////
     // Remember to start your method with "public static"
 }
+

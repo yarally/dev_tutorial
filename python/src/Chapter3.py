@@ -12,11 +12,12 @@ def main():
     # Study the sum_sequence methods (lines 29 and 43) before you continue
     # EXERCISE 1: Move the code below into a function and print the result #############################################
     base: int = 5  # First input
-    power: int = 3  # Second input
-    result: int = base  # Return variable
-    for i in range(power - 1):
-        result = result * base
-    print(result)
+    pow: int = 3  # Second input
+
+
+    resultaat = macht(base, pow)
+    print(macht2(base, pow))
+    print(resultaat)
 
     # Call the function you created here, make sure it is in the scope of the main function
     # ...
@@ -49,6 +50,14 @@ def sum_sequence_2(inp: int) -> int:
 
 # WRITE YOUR SOLUTION HERE #############################################################################################
 
+def macht(base: int, pow: int) -> int:
+    return  base ** pow
+
+def macht2(base: int, power: int):
+    res = base
+    for _ in range(power - 1):
+        res *= base
+    return res
 
 if __name__ == '__main__':
     main()

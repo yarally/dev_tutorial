@@ -8,7 +8,7 @@ _strongly typed_. A strongly typed language requires the explicit declaration of
 weakly typed language this is disregarded or kept optional.
 
 ## Simple types
-Most programming languages feature roughly the same variable types, albeit under different names. The most common ones
+Most programming languages feature roughly the same variable types, albeit under different names. Common ones
 that you will see are:
 * Integers, or whole numbers
 * Floats, or decimal numbers

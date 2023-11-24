@@ -1,28 +1,28 @@
 """
-This is the main function, a special function that is always started by the operating system when you run the program
-We will go over functions and methods in Chapter 3
+This is Python's the main function. To recap: All the code inside the main function is executed when we run the file.
 """
 if __name__ == '__main__':
     # We can use print("Your text here") to print stuff to the console
     print('Hello World')
 
-    # This is a variable named "number". In Python, a type declaration is optional.
-    number = 5
+    # On line 9, we declare a variable named "foo" and set it to 5. In Python, a type declaration is optional.
+    foo = 5
 
-    # We can append a type declaration to make the code more readable, but the type will not be enforced.
-    typed_number: int = 5
+    # We can append a type declaration to make the code more readable (but the type will not be enforced).
+    foo_with_type: int = 5
+    #            -----
 
-    # We can assign different values to these variables
-    number = 3
-    typed_number = 2
+    # Python is a "weakly-typed" language. Even though we tell the program that our variable is an integer,
+    # nobody will stop us from assigning a different type of value such as a boolean. Although the program will still
+    # try to run, it is best to avoid these kinds of "bad practices".
+    foo_with_type = False
+    #             -------
 
-    # Here we overrule the earlier type declaration as well. This does not work in Java for example.
-    typed_number = False
-
-    # Now let's try to work with these variables.
+    # EXERCISE 1: ######################################################################################################
     # Create 2 variables named recipe and eggs
-    # Initialize the values to 7 and 12
+    # Initialize the values to 7 and 12 (It could be nice to include a type annotation)
     # Change the value of eggs by subtracting the amount of eggs in the recipe and print the result
     # The answer should be 5
+    # TIP1: Remember that you can use print() to print stuff to the console
 
-    # WRITE YOUR SOLUTION HERE #########################################################################################
+    # TODO: WRITE YOUR SOLUTION HERE
